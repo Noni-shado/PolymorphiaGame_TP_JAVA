@@ -1,8 +1,9 @@
 PolymorphiaGame – TP Java RPG Multijoueur
 
 Projet réalisé dans le cadre du TP noté de Java – Licence Informatique L3.
-Il s’agit d’un jeu RPG Heroic Fantasy en console, intégrant un mode solo (PvE)
-et un mode multijoueur (PvP) en réseau client/serveur.
+Il s’agit d’un jeu en console dans lequel le joueur incarne un personnage,
+combat des monstres, améliore ses statistiques et peut affronter un autre
+joueur en mode multijoueur (client / serveur).
 
 Auteurs
 
@@ -19,7 +20,7 @@ Le jeu se joue entièrement dans la console.
 
 Fonctionnalités
 
-Mode solo (PvE)
+Mode solo (PvE: Player versus Environment)
 
 - Déplacement dans le monde avec rencontres aléatoires
 - Bestiaire de monstres (dragon, zombie, loup, gobelin)
@@ -44,14 +45,7 @@ Mode multijoueur (PvP)
 
 Architecture du projet
 
-Polymorphia
-|
-|-- combat : moteur de combat
-|-- commerce : marchand et achats
-|-- modele : joueur, monstre, inventaire, monde
-|-- objet : armes, armures, potions, sorts, materia
-|-- multijoueur : client et serveur PvP
-|-- ApplicationPolymorphia.java (classe principale)
+![Architecture du projet](images/architecture_projet.png)
 
 ## 📐 Diagramme de classes UML
 
@@ -63,7 +57,7 @@ Il met en évidence :
 - les relations entre les objets du jeu (armes, armures, potions, sorts, materia)
 - l’architecture multijoueur client / serveur
 
-![Diagramme de classes UML](captures/diagramme_classes.png)
+![Diagramme de classes UML](images/diagramme_classes.png)
 
 Exécution du projet
 
