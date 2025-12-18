@@ -1,4 +1,4 @@
-PolymorphiaGame – TP Java RPG Multijoueur
+PolymorphiaGame – Jeu Java en console
 
 Projet réalisé dans le cadre du TP noté de Java – Licence Informatique L3.
 Il s’agit d’un jeu en console dans lequel le joueur incarne un personnage,
