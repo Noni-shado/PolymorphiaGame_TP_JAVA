@@ -21,7 +21,7 @@ public class Arme implements Objet {
 
     @Override
     public int getPrixEnIntcoins() {
-        // Le prix dépend des statistiques :contentReference[oaicite:4]{index=4}
+        // Le prix dépend des statistiques 
         return 10 + pointsDAttaqueAjoutes * 4;
     }
 

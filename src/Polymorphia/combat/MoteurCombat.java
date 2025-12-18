@@ -46,7 +46,7 @@ public class MoteurCombat {
             joueur.augmenterNiveauDeCompetence(1);
             joueur.recalculerStatistiquesAvecEquipement();
 
-            // Butin aléatoire : sort ou materia :contentReference[oaicite:6]{index=6}
+            // Butin aléatoire
             if (monstre.doitLacherUnSort(random)) {
                 Sort sort = monstre.genererSortAleatoire(random);
                 joueur.getInventaire().ajouterSort(sort);

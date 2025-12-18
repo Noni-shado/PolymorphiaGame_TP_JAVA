@@ -17,7 +17,7 @@ public class Marchand {
     }
 
     private void initialiserCatalogue() {
-        // Liste d'objets à vendre :contentReference[oaicite:5]{index=5}
+        // Liste d'objets à vendre 
         catalogue.add(new Arme("Épée en fer", 3));
         catalogue.add(new Arme("Hache lourde", 5));
         catalogue.add(new Arme("Arc long", 4));

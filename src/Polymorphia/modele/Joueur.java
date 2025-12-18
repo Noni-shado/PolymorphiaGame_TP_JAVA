@@ -17,7 +17,7 @@ public class Joueur extends Personnage {
     }
 
     public static Joueur creerJavaltDeRiv() {
-        // Valeurs par défaut raisonnables (vous pouvez ajuster)
+        // Valeurs par défaut 
         return new Joueur("Javalt de Riv", 60, 8, 4, 1);
     }
 
@@ -73,7 +73,7 @@ public class Joueur extends Personnage {
     }
 
     public void recalculerStatistiquesAvecEquipement() {
-        int attaqueBase = 8 + (niveauDeCompetence - 1);   // compétence qui progresse :contentReference[oaicite:2]{index=2}
+        int attaqueBase = 8 + (niveauDeCompetence - 1);   // compétence qui progresse
         int defenseBase = 4 + (niveauDeCompetence - 1);
 
         int bonusAttaque = (armeEquipee == null) ? 0 : armeEquipee.getPointsDAttaqueAjoutes();
